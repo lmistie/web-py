@@ -1,0 +1,181 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+    background-color: #2B5B84;
+}
+
+/* Здесь начало горизонтального меню Роман */
+a {
+    text-decoration: none;
+}
+
+.img-nav{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left:20px;
+    top:20px;
+}
+
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 30px 0 30px;
+    text-align: center;
+    background-color: #1E2933;
+    position: relative;
+    width: 100%;
+}
+.menu-main li {
+    display: inline-block;
+}
+.menu-main a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 30px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {
+    color: #9d999d;
+}
+.menu-main a.current, .menu-main a:hover {
+    color: #feb386;
+}
+
+@media (max-width: 550px) {
+    .menu-main {padding-top: 0;
+}
+.menu-main li {
+    display: block;
+}
+.menu-main li:after {
+    content: none;
+}
+.menu-main a {
+    padding: 15px 0 10px; 
+    margin: 30px 10px 30px;
+}
+
+.images-algoritmika {
+    width: 25px;
+    height: 15px;
+    position: relative;
+    }
+}
+
+/* Конец начало горизонтального меню Роман */
+
+/* main-inform */
+
+.main-border {
+    padding: 20px 0 0 0;
+}
+
+
+/* Цитата start */
+section {
+    position: relative;
+    left: 200px;
+    border: 5px solid #0e65ac;
+    border-radius: 20px;
+    background-image: linear-gradient(#2B5B84, #3C688E);
+    width: 1050px;
+    height: 80px;
+    left: 250px;
+}
+
+section p {
+    color: #000000;
+    font-size: 24px;
+    margin: 25px 0 20px 0;
+    font-family: Signika SC;
+    text-align: center;
+}
+
+/* Цитата end */
+
+.main-information {
+    position: relative;
+    width: 1060px;
+    height: 500px;
+    left: 250px;
+    background-color: #2B5B84;
+    color: white;
+    margin-top: 20px;
+}
+
+.main-information-img {
+    float: left;
+}
+
+.main-information-right {
+    float: right;
+    width: 560px;
+    height: 400px;
+    background-color: #17354F;
+    text-align: center;
+    font-size: 24;
+}
+
+.main-information-right p {
+    color: white;
+}
+
+.main-information-right span {
+    color: #FFDE56;
+    font-size: 36;
+}
+
+.main-information-bottom p {
+    color: black;
+    text-align: center;
+    font-size: 22;
+    text-decoration: none;
+    margin: 28px 0 20px 0;
+    padding: 10px 0 10px;
+}
+
+.main-information-bottom a {
+    text-decoration: none;
+    font-size: 22;
+    color: #FFDE56;
+}
+
+.blok_1{
+    position: relative;
+    width: 225px;
+    height: 330px;
+    left: 133px;
+    top: 500px; 
+    background: #C4C4C4;
+    font-family: Signika SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding: 9px 15px 31px 14px;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    border-top: 10px solid rgb(34, 69, 100);
+}
+
+/* fotter */

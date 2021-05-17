@@ -179,3 +179,64 @@ section p {
 }
 
 /* fotter */
+.video1{
+    position: absolute;
+    width: 1150px;
+    height: 400px;
+    left: 133px;
+    top: 1200px;
+    background: #7080D7;
+}
+
+.video1 p{
+    position: relative;
+    width: 594px;
+    height: 340px;
+    left: 570px;
+    top: -370px;
+    font-family: Signika SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+} */
+
+/* fotter */
+
+footer {
+    background-color: #1E2933;
+}
+
+.footer_p1{
+    position: absolute;
+    top: 1650px;
+    font-size: 30px;
+    left: 500px;
+    color: #FFE040;
+}
+.social-twitter{
+    content: url("https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png");
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 1720px;
+    left: 700px;
+}
+.social-vk{
+    content: url("https://pngicon.ru/file/uploads/vk-256x256.png");
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 1720px;
+    left: 600px;
+}
+.social-discord{
+    content: url("https://img.icons8.com/color/452/discord-new-logo.png");
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 1720px;
+    left: 800px;
+}

@@ -4,6 +4,7 @@ html {
 }
 
 body {
+    background-color: #1E2933;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +12,7 @@ body {
 main {
     margin: 0;
     padding: 0;
-    height: 2000px;
+    height: 1600px;
     background-color: #2B5B84;
 }
 
@@ -88,7 +89,6 @@ a {
     padding: 20px 0 0 0;
 }
 
-
 /* Цитата start */
 section {
     position: relative;
@@ -158,32 +158,51 @@ section p {
     color: #FFDE56;
 }
 
-.blok_1{
-    position: relative;
-    width: 225px;
-    height: 330px;
-    left: 133px;
-    top: 500px; 
-    background: #C4C4C4;
-    font-family: Signika SC;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
+.font_img-1 a{
+    color: #FFE040;
+}
+.font_img-1 h2{
     text-align: center;
-    padding: 9px 15px 31px 14px;
-    float: left;
-    display: flex;
-    justify-content: space-around;
-    border-top: 10px solid rgb(34, 69, 100);
+    color: #FFE040;
+}
+.img-1{
+    
+    width: 530px;
+    height: 300px;
+    left: 30px;
+    top: 200px;
+}
+.img-1 img{
+    width: 530px;
+    height: 350px;
 }
 
-/* fotter */
+.content {
+    
+    position: relative;
+    left: 170px;
+    width: 1200px;
+    padding: 30px;
+}
+
+.blok_1{
+    background-color: #C4C4C4;
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
+    border-top: 10px solid rgb(34, 69, 100);
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    height: 330px;
+    width: 225px;
+}
 .video1{
     position: absolute;
     width: 1150px;
     height: 400px;
-    left: 133px;
+    left: 200px;
+    /* left: 133px; */
     top: 1200px;
     background: #7080D7;
 }
@@ -201,42 +220,42 @@ section p {
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
-} */
+}
 
-/* fotter */
+/* footer */
 
 footer {
     background-color: #1E2933;
+    height: 150px;
 }
 
 .footer_p1{
-    position: absolute;
-    top: 1650px;
+    text-align: center;
     font-size: 30px;
-    left: 500px;
     color: #FFE040;
+    padding: 20px;
 }
 .social-twitter{
     content: url("https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png");
     height: 50px;
     width: 50px;
     position: absolute;
-    top: 1720px;
-    left: 700px;
+    top: 1800px;
+    left: 930px;
 }
 .social-vk{
     content: url("https://pngicon.ru/file/uploads/vk-256x256.png");
     height: 50px;
     width: 50px;
     position: absolute;
-    top: 1720px;
-    left: 600px;
+    top: 1800px;
+    left: 830px;
 }
 .social-discord{
     content: url("https://img.icons8.com/color/452/discord-new-logo.png");
     height: 60px;
     width: 60px;
     position: absolute;
-    top: 1720px;
-    left: 800px;
+    top: 1800px;
+    left: 1030px;
 }

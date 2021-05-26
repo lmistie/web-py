@@ -1,0 +1,157 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: #1E2933; */
+    margin: 0;
+    padding: 0;
+    background-color: #2B5B84;
+}
+
+main {
+    margin: 20px 0 0 0;
+    padding: 0;
+    /* height: 3000px; */
+    background-color: #2B5B84;
+}
+
+/* Здесь начало горизонтального меню Роман */
+a {
+    text-decoration: none;
+}
+
+.img-nav{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left:20px;
+    top:20px;
+}
+
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 30px 0 30px;
+    text-align: center;
+    background-color: #1E2933;
+    position: relative;
+    width: 100%;
+}
+.menu-main li {
+    display: inline-block;
+}
+.menu-main a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 30px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {
+    color: #9d999d;
+}
+.menu-main a.current, .menu-main a:hover {
+    color: #feb386;
+}
+
+@media (max-width: 550px) {
+    .menu-main {padding-top: 0;
+}
+.menu-main li {
+    display: block;
+}
+.menu-main li:after {
+    content: none;
+}
+.menu-main a {
+    padding: 15px 0 10px; 
+    margin: 30px 10px 30px;
+}
+
+.images-algoritmika {
+    width: 25px;
+    height: 15px;
+    position: relative;
+    }
+}
+
+
+/* Aleksandr review */
+
+.main-inform {
+    padding: 10px;
+    top: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 34px;
+    background-color: #2B5B84;
+    
+    width: 1420px;
+    
+    left: 250px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.inform-1-left {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 630px;
+    text-align: center;
+    border-bottom: 5px solid white;
+    
+}
+
+.inform-1-right {
+    float: right;
+    height: 330px;
+}
+
+
+
+footer {
+    background-color: #1E2933;
+    height: 150px;
+}
+
+.footer_p1{
+    text-align: center;
+    font-size: 30px;
+    color: #FFE040;
+    padding: 20px;
+}
+.social-twitter{
+    content: url("https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png");
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 1800px;
+    left: 930px;
+}
+.social-vk{
+    content: url("https://pngicon.ru/file/uploads/vk-256x256.png");
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 1800px;
+    left: 830px;
+}
+.social-discord{
+    content: url("https://img.icons8.com/color/452/discord-new-logo.png");
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 1800px;
+    left: 1030px;
+}
